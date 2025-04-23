@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+env:
+  name: username
+  type: string 
+    DOCKER_USERNAME:rahulrepos
       
 jobs:
   build:
